@@ -1,4 +1,4 @@
-const Price = require('../models/price');
+const Price = require('./../models/price');
 
 const all = async () => await Price.find({});
 

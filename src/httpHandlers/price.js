@@ -1,4 +1,4 @@
-const controller = require('../controllers/price.js');
+const controller = require('./../controllers/price.js');
 
 const all = async (req, res) => {
     const data = await controller.all();

@@ -1,4 +1,4 @@
-const httpHandler = require('../httpHandlers/price')
+const httpHandler = require('./../httpHandlers/price')
 const express = require('express')
 const router = express.Router()
 

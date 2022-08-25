@@ -1,4 +1,4 @@
-const httpHandler = require('../httpHandlers/recipe')
+const httpHandler = require('./../httpHandlers/recipe')
 const express = require('express')
 const router = express.Router()
 

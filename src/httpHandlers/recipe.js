@@ -1,4 +1,4 @@
-const controller = require('../controllers/recipe.js');
+const controller = require('./../controllers/recipe.js');
 
 const all = async (req, res) => {
     const data = await controller.all();

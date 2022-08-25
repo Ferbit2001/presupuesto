@@ -1,4 +1,4 @@
-const controller = require('../controllers/ingredient');
+const controller = require('./../controllers/ingredient');
 
 const all = async (req, res) => {
     const data = await controller.all();
