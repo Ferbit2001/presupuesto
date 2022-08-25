@@ -1,4 +1,4 @@
-const httpHandler = require('.7../httpHandlers/ingredient')
+const httpHandler = require('./../httpHandlers/ingredient')
 const express = require('express')
 const router = express.Router()
 
