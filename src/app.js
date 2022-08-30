@@ -10,4 +10,4 @@ app.use('/v1/recipe', require('./routes/recipe'))
 app.use('/v1/ingredient', require('./routes/ingredient'))
 app.use('/v1/price', require('./routes/price'))
 
-app.listen(3000,"0.0.0.0",()=>console.log('*****Server en puerto 3000*****'))
+app.listen(80,"0.0.0.0",()=>console.log('*****Server en linea*****'))
