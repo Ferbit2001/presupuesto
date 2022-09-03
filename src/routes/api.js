@@ -1,6 +1,6 @@
 let recipe = require('./recipe')
-let ingredient = require('./src/routes/ingredient')
-let price = require('./src/routes/price')
+let ingredient = require('./ingredient')
+let price = require('./price')
 
 const setApiRoutes = (app) => {
     app.use('/v1/recipe', recipe)
