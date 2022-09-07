@@ -1,4 +1,4 @@
-require('./db');
+require('./db/db');
 const express = require('express')
 const cors = require('cors')
 const app = express()
@@ -10,7 +10,7 @@ let Ingredient = require('./models/ingredient')
 let Recipe = require('./models/recipe')
 let Price = require('./models/price')
 
-const httpHandler = require('./httpHandler')
+const httpHandler = require('./src/httpHandler')
 
 let setFun = (url,fun) => {
     const router = express.Router()
