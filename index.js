@@ -9,6 +9,7 @@ app.use(express.json())
 let Ingredient = require('./models/ingredient')
 let Recipe = require('./models/recipe')
 let Price = require('./models/price')
+let Menu = require('./models/menu')
 
 const httpHandler = require('./src/httpHandler')
 
@@ -28,5 +29,6 @@ let setFun = (url,fun) => {
 setFun('/v1/ingredient',Ingredient)
 setFun('/v1/recipe',Recipe)
 setFun('/v1/price',Price)
+setFun('/v1/Menu',Menu)
 
 app.listen(80,"0.0.0.0",()=>console.log('*****Server en linea*****'))
