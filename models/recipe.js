@@ -4,7 +4,8 @@ const recipeSchema = new Schema({
     name: {type: String, required: true},
     ingredients: [{type: Array, required: false}],
     duration: {type: Number, required: false},
-    preparation: {type: String, required: false}
+    preparation: {type: String, required: false},
+    price: {type: Number,required: false}
 },{versionKey: false})
 
 const Recipe = model('Recipe', recipeSchema)
